@@ -1,0 +1,16 @@
+﻿<Window x:Class="SimpleDBAccess.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleDBAccess"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="700">
+
+    <Grid>
+        <Label Content="Betätige die Buttons!" FontSize="25" HorizontalAlignment="Left" Margin="31,31,0,0" VerticalAlignment="Top" Height="70" Width="640"/>
+        <Button Content="Get Data" HorizontalAlignment="Left" Margin="96,149,0,0" VerticalAlignment="Top" Width="236" Click="Button_get_data" Height="40"/>
+        <Button Content="Set Data" HorizontalAlignment="Left" Margin="368,149,0,0" VerticalAlignment="Top" Width="236" Click="Button_set_data" Height="40"/>
+        <TextBox x:Name="AusgabeFeld" HorizontalAlignment="Center" Height="211" Margin="0,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500"/>
+    </Grid>
+</Window>
